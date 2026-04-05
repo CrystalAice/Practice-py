@@ -1,8 +1,9 @@
+import random
 guess_count = 0
 Easy = 10
 Medium = 5
 Hard = 3
-answer = 28
+answer = random.randint(1, 100)
 print("Please select the difficulty level: \n1. Easy 10 chances \n2. Medium 5 chances \n3. Hard 3 chances\n")
 choice = int(input("Enter your choice: "))
 if choice == 1:
